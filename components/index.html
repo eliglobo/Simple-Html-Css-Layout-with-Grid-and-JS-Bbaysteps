@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Html, Css Layout Design</title>
+    <link rel="stylesheet" href="../styles/style.css">
+</head>
+<body>
+<div class="body">
+    <div class="el NavBar">
+        <nav class="navSection">
+            <div class="NavLogo">
+                <h1 class="Logo">LOGO</h1>
+            </div>
+            <ul class="navUL">
+                <li class="navLI">Home</li>
+                <li class="navLI">Contact</li>
+                <li class="navLI">CV</li>
+                <div class="navAction">
+                    <button class="ActionNavButton">Join Newsletter</button>
+                </div>
+            </ul>
+        </nav>
+    </div>
+    <div class="el FunctionBar"></div>
+    <div class="el LeftPanel"></div>
+    <div class="el RightPanel"></div>
+    <div class="el Content">
+        <h1>Welcome to a simple Website</h1>
+        <p>This document was developed by:
+            <b>Elisa Seeger</b>
+        </p>
+
+        <hr/> <!--Horizontal Break-->
+
+        <button onclick="helloJS()">Trigger JS</button>
+
+        <br/> <!--New line Break-->
+
+        <button class="colorBtn" onclick="RandomColor()">Change Color</button>
+        <hr/>
+
+    <div class="TodoListWrapper">
+        <div class "todoListFunction">
+        <h5>Js Todolist</h5>
+        <input type="text">
+        <button>Add Todo</button>
+
+    </div>
+    <div class="el Footer"></div>
+
+    <!--    JS Link-->
+    <script src="../backend/script.js"></script>
+</div>
+</body>
+</html>
